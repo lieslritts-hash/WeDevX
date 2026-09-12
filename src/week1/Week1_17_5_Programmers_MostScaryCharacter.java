@@ -1,0 +1,30 @@
+package week1;
+
+/*
+1.17.5 Programmers most scary character*
+easy
+|
+30 min
+|
+Share
+After spending hours writing code that solves complex
+problems, many programmers can't run their code because
+of a super simple problem. The problem is that the programmers
+miss one character, the most frequently missed character for
+any programmer. We are talking about a semicolon ; Write a
+program that declares a variable scaryChar with the most
+suitable data type and assign a semi-colon; as a value.
+Then prints out the value of scaryChar;
+
+java
+Copy code
+_____ scaryChar = ____;
+System.out.println(scaryChar);
+ */
+
+public class Week1_17_5_Programmers_MostScaryCharacter {
+    public static void main(String args[]) {
+        char scaryChar = ';';
+        System.out.println(scaryChar);
+    }
+}

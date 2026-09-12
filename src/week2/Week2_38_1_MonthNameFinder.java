@@ -1,0 +1,55 @@
+package week2;
+
+import java.util.Scanner;
+
+/*
+2.38.2 Month Name Finder*
+easy
+|
+30 min
+|
+Share
+Write a Java program that prompts the user to enter a
+number between 1 and 12, representing a month of the year,
+and then prints the name of the corresponding month. For
+example, if the user enters 1, the program should print
+"January", if the user enters 2, the program should print
+"February", and so on. If the user enters a number outside of
+the range 1-12, the program should print Invalid input
+ */
+
+public class Week2_38_1_MonthNameFinder {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int number = sc.nextInt();
+
+        if (number == 1) {
+            System.out.println("January");
+        } else if (number == 2) {
+            System.out.println("February");
+        } else if (number == 3) {
+            System.out.println("March");
+        } else if (number == 4) {
+            System.out.println("April");
+        } else if (number == 5) {
+            System.out.println("May");
+        } else if (number == 6) {
+            System.out.println("June");
+        } else if (number == 7) {
+            System.out.println("July");
+        } else if (number == 8) {
+            System.out.println("August");
+        } else if (number == 9) {
+            System.out.println("September");
+        } else if (number == 10) {
+            System.out.println("October");
+        } else if (number == 11) {
+            System.out.println("November");
+        } else if (number == 12) {
+            System.out.println("December");
+        } else {
+            System.out.println("Invalid input");
+        }
+    }
+}
